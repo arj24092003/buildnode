@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "allowJs": true,          // Allow JavaScript files to be included
+    "outDir": "./dist",       // Specify output directory for compiled files
+    "target": "es6",          // Set target version of JavaScript
+    "module": "commonjs"      // Define the module system (use "commonjs" if working with Node.js)
+  },
+  "include": [
+    "index.js"  // Specify that the JavaScript file should be included
+  ]
+}
